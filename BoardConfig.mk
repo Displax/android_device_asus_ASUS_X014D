@@ -37,7 +37,8 @@ BOARD_HAS_NO_REAL_SDCARD := true
 
 # Misc
 TW_INCLUDE_CRYPTO := true
-TW_EXCLUDE_SUPERSU := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 
+# USB Mounting
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
