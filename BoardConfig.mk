@@ -36,6 +36,7 @@ TW_THEME := portrait_mdpi
 BOARD_HAS_NO_REAL_SDCARD := true
 
 # Misc
+TW_HAS_EDL_MODE := true
 TW_INCLUDE_CRYPTO := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
